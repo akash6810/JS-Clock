@@ -1,0 +1,63 @@
+body {
+    background-color: #141111eb;
+    color: #d4d4d4;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.editor {
+    background-color: #1e1e1e;
+    border: 1px solid #3c3c3c;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.file-name {
+    color: #ffbad6;
+    font-weight: bold;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    background-color: #13bf00;
+    border-radius: 50%;
+}
+
+.code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.indent {
+    padding-left: 20px; 
+}
+
+.variable {
+    color: #9cdcfe;
+}
+
+.property {
+    color: #ff7852;
+}
+
+.value {
+    color: #a2fe71;
+}
+
+.string {
+    color: #93b2f7;
+}
